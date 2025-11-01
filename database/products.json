@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1760877117333,
+    "name": "first product",
+    "price": "1000",
+    "description": "this is a sample description",
+    "category": "ddddddd",
+    "creation_date": "2025-10-19T12:31:57.333Z",
+    "images": [
+      "/uploads/1760877117294-4G-LTE-WiFi-Modem-in-BD.jpeg",
+      "/uploads/1760877117299-380490519_308905951730563_1740855547145114639_n.png",
+      "/uploads/1760877117323-Hoco-W106-Gaming-Headphone-in-BD.webp",
+      "/uploads/1760877128295-Hoco-W106-Gaming-Headphone-Price-in-BD.webp"
+    ],
+    "sizes": [
+      {
+        "name": "s",
+        "stock": "2"
+      },
+      {
+        "name": "m",
+        "stock": "30"
+      }
+    ]
+  },
+  {
+    "id": 1761390153678,
+    "name": "second product",
+    "price": "400",
+    "description": "this is a sample description",
+    "category": "ddddddd",
+    "creation_date": "2025-10-25T11:02:33.678Z",
+    "images": [
+      "/uploads/1761390153652-MAONO-AU-A04-microphone.jpeg",
+      "/uploads/1761390153660-PON_2A.PNG",
+      "/uploads/1761390153665-PON-4.PNG",
+      "/uploads/1761390153670-Router-Stand-Round-Cut-Design-800x800.jpeg"
+    ],
+    "sizes": [
+      {
+        "name": "",
+        "stock": "389"
+      }
+    ]
+  }
+]
