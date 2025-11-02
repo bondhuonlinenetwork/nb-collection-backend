@@ -6,11 +6,14 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const app = express();
 const path = require("path");
-const corsOptions = {
-    origin: 'http://localhost:5173', // Replace with the origin of your React app
-    credentials: true, // Allow sending and receiving cookies
-};
-app.use(cors(corsOptions));
+app.use(cors({
+    origin: [
+        'http://localhost:5173', // for local dev
+        'https://nb-collection-backend-vercel.vercel.app/', // your deployed frontend
+    ],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true,
+}));
 app.use(cookieParser());
 app.use(express.urlencoded({ limit: '10mb', extended: true, parameterLimit: 10000 }));
 app.use(express.json({ limit: '10mb', parameterLimit: 10000 }));
