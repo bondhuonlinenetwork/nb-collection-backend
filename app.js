@@ -9,7 +9,7 @@ const path = require("path");
 app.use(cors({
     origin: [
         'http://localhost:5173', // for local dev
-        'https://nb-collection-backend.vercel.app/', // your deployed frontend
+        'https://nb-collection-frontend.vercel.app', // your deployed frontend
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
